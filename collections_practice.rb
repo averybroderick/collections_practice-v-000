@@ -40,3 +40,9 @@ def kesha_maker(arr)
     el
   end
 end
+
+def find_a(arr)
+  arr.find do |a|
+    a[0] == "a"
+  end
+end
