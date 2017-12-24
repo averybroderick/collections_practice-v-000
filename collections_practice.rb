@@ -17,8 +17,15 @@ end
 def swap_elements(arr)
   second = arr[1]
   third = arr[2]
-
   arr[2] = second
   arr[1] = third
+  arr
+end
+
+def swap_elements_from_to(arr, i, dest_i)
+  swip = arr[dest_i]
+  swap = arr[i]
+  arr[dest_i] = swap
+  arr[i] = swip
   arr
 end
