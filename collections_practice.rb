@@ -57,6 +57,6 @@ end
 
 def add_s(arr)
   arr.each_with_index do |word, index|
-    index != 1? word << "s"
+    index != 1? word << "s" : nil
   end
 end
