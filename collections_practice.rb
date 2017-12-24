@@ -47,7 +47,7 @@ def find_a(arr)
   end
 end
 
-def sum_arr(arr)
+def sum_array(arr)
   sum = 0
   arr.each do |i|
     sum+=1
