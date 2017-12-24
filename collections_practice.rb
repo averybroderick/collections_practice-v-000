@@ -22,10 +22,14 @@ def swap_elements(arr)
   arr
 end
 
-def swap_elements_from_to(arr, i, dest_i)
-  swip = arr[dest_i]
-  swap = arr[i]
-  arr[dest_i] = swap
-  arr[i] = swip
-  arr
+# def swap_elements_from_to(arr, i, dest_i)
+#   swip = arr[dest_i]
+#   swap = arr[i]
+#   arr[dest_i] = swap
+#   arr[i] = swip
+#   arr
+# end
+
+def reverse_array(arr)
+  arr.reverse
 end
