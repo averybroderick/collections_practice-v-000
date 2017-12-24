@@ -1,7 +1,5 @@
 def sort_array_asc(arr)
-  arr.sort do |a, b|
-    a <=> b
-  end
+  arr.sort 
 end
 
 def sort_array_desc(arr)
