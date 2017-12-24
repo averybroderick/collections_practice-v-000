@@ -55,8 +55,8 @@ def sum_array(arr)
   sum
 end
 
-def add_s(arr) 
+def add_s(arr)
   arr.each_with_index do |word, index|
-    index != 1? word << "s" 
+    index != 1? word << "s"
+  end
 end
-
