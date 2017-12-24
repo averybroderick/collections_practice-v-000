@@ -46,3 +46,11 @@ def find_a(arr)
     a[0] == "a"
   end
 end
+
+def sum_arr(arr)
+  sum = 0
+  arr.each do |i|
+    sum+=1
+  end
+  sum
+end
